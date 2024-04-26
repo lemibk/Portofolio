@@ -1,0 +1,28 @@
+.flex-container {
+    display: flex;
+    column-gap: 50px;
+}
+
+.logo-container {
+    padding: 10px 12px;
+    height: 40px;
+    width: 100px;
+    font-family: var(font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 111%;
+    text-align: center;
+    color: #6070ff;
+}
+
+.navigation-cointainer {
+    width: 258px;
+    height: 40px;
+    text-align: left;
+
+}
+
+.navigation-elements {
+    width: 258px;
+    height: 40px;
+}
