@@ -1,184 +1,135 @@
 .flex-container {
-    display: flex;
-
-    flex-direction: column;
-
-
-
-
-
+  display: flex;
+  flex-direction: column;
 }
-
-.navigation a:hover {
-
-    color: #273bec;
-}
-
-
-
-
-
-a {
-    text-decoration: none;
-    color: inherit;
-
-}
-
 
 li {
-    list-style: none;
-
-    display: inline-block;
-    margin-left: 0%;
-    margin-right: 15px;
-
+  list-style: none;
+  display: inline-block;
+  margin-left: 0%;
+  margin-right: 15px;
 }
 
 .bg {
-    margin: 0;
-
-    background-size: cover;
-
-    width: 100%;
-    height: 100vh;
-    background-image: url(./lm.png);
-    background-repeat: no-repeat;
-    background-position: center;
-
-
+  margin: 0;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-image: url(./lm.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-
 body {
-
-    background-color: rgb(255, 255, 255);
-
-
-
-
+  background-color: rgb(255, 255, 255);
 }
 
 .logo {
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 900;
-    color: #7f4ff8;
-
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 900;
+  color: #7f4ff8;
 }
 
 .header-style {
-
-    left: 0;
-    padding-top: 7%;
-    padding-left: 10%;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 125%;
-    padding-bottom: 0%;
-    letter-spacing: 0.01em;
-    color: #091e42;
-
-
+  left: 0;
+  padding-top: 7%;
+  padding-left: 10%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 125%;
+  padding-bottom: 0%;
+  letter-spacing: 0.01em;
+  color: #091e42;
 }
 
 .paragraph-style {
-
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 125%;
-    line-height: 140%;
-    color: #344563;
-    padding-left: 5%;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 125%;
+  line-height: 140%;
+  color: #344563;
+  padding-left: 5%;
 }
 
 nav {
-    background-color: white;
-    /* box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.1); */
+  background-color: white;
+
+  /* box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.1); */
 }
 
 nav ul {
-    width: 90%;
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+  width: 90%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 nav li {
-    height: 50px;
+  height: 50px;
 }
 
 nav a {
-    height: 100%;
-    padding: 0 0px;
-    display: flex;
-    align-items: center;
-}
-
-nav a:hover {
-    background-color: #969ba242;
-}
-
-nav li:first-child {
-    margin-right: auto;
-
-}
-
-.sidebar {
-    position: fixed;
-    top: 0%;
-    right: 0%;
-    height: 100vh;
-    width: 250px;
-    z-index: 999;
-    background-color: rgba(255, 255, 255, 0.345);
-
-    box-shadow: -10px 0 10px rgba(239, 234, 234, 0.369);
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-
+  height: 100%;
+  padding: 0 0;
+  display: flex;
+  align-items: center;
 }
 
 .sidebar li {
-    width: 100%;
+  width: 100%;
 }
 
 .sidebar a {
+  width: 100%;
+}
+
+nav a:hover {
+  background-color: #969ba242;
+}
+
+nav li:first-child {
+  margin-right: auto;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0%;
+  right: 0%;
+  height: 100vh;
+  width: 250px;
+  z-index: 999;
+  background-color: rgba(255, 255, 255, 0.345);
+  box-shadow: -10px 0 10px rgba(239, 234, 234, 0.369);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+@media (min-width: 768px) {
+  .menu-mobile {
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 768px) {
+  .bg {
+    margin: 0;
+    background-size: cover;
     width: 100%;
+    height: 100vh;
+    background-image: url(./header-shapes\ mobile.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .menu-desktop {
+    visibility: hidden;
+  }
 }
 
-
-
-@media(min-width: 768px) {
-    .menu-mobile {
-        visibility: hidden;
-    }
-
-
-
-}
-
-@media(max-width: 768px) {
-    .bg {
-        margin: 0;
-
-        background-size: cover;
-
-        width: 100%;
-        height: 100vh;
-        background-image: url(./header-shapes\ mobile.png);
-        background-repeat: no-repeat;
-        background-position: center;
-
-
-    }
-
-    .menu-desktop {
-        visibility: hidden;
-    }
-
-
+.navigation a:hover {
+  color: #273bec;
 }
