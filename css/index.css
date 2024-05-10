@@ -22,14 +22,6 @@ nav a {
   padding: 0 0;
   display: flex;
   align-items: center;
-
-}
-
-nav li {
-
-
-  margin-left: 0%;
-  margin-right: 15px;
 }
 
 .bg {
@@ -82,8 +74,14 @@ nav ul {
   align-items: center;
 }
 
+li {
+  display: inline-block;
+}
+
 nav li {
   height: 50px;
+  margin-left: 0%;
+  margin-right: 15px;
 }
 
 .sidebar li {
@@ -120,23 +118,13 @@ nav li:first-child {
   width: 100%;
 }
 
-li {
-  display: inline-block;
-
-}
-
 .align-s2 {
   display: flex;
   flex-direction: row;
-  display: inline;
   font-size: 25px;
-
   color: #7a869a;
   gap: 5%;
 }
-
-
-
 
 .colorb {
   border-radius: 20%;
@@ -152,20 +140,13 @@ li {
   border-color: #5767f7;
   color: #273bec;
   background-color: white;
-  padding: 1%;
   margin-top: 5%;
   padding: 27px;
 }
 
-.section-two-one {
-  margin-left: 2%;
-}
-
-
 #p {
   line-height: 123%;
   font-size: 30px;
-
 }
 
 #h {
@@ -183,6 +164,7 @@ image {
 
 .htonic {
   font-size: 37px;
+
   /* margin-left: 1%; */
 }
 
@@ -198,7 +180,6 @@ image {
   border-color: #5767f7;
   color: #273bec;
   background-color: white;
-
   margin-top: 1%;
   padding: 15px;
 }
@@ -227,7 +208,6 @@ image {
 
 .lang-text {
   margin-left: 3%;
-
 }
 
 .logo-text {
@@ -238,14 +218,12 @@ image {
   margin-bottom: 1%;
   border-radius: 15px;
   padding: 10px;
-
 }
 
 .text {
   margin-top: 4%;
   margin-left: 2%;
 }
-
 
 .lang-logo {
   display: flex;
@@ -259,11 +237,11 @@ image {
 
 .sections-division {
   margin-top: 5%;
-
 }
 
 .section-two-one {
   margin-bottom: 15%;
+  margin-left: 2%;
 }
 
 .section-two-two {
@@ -285,7 +263,6 @@ image {
 }
 
 @media (max-width: 768px) {
-
   .bg {
     margin: 0;
     background-size: cover;
@@ -299,8 +276,6 @@ image {
   .menu-desktop {
     visibility: hidden;
   }
-
-
 }
 
 .hyperlinks {
