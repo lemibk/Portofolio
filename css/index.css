@@ -202,8 +202,8 @@ image {
 .languages {
   display: flex;
   flex-direction: row;
-  gap: 23%;
-  margin-top: 3%;
+  gap: 200px;
+  margin-top: 40px;
 }
 
 .lang-text {
@@ -214,7 +214,7 @@ image {
   display: flex;
   flex-direction: row;
   background: #f7f7f9;
-  width: 30%;
+  width: 250px;
   margin-bottom: 1%;
   border-radius: 15px;
   padding: 10px;
@@ -329,6 +329,74 @@ image {
 
   .others {
     width: 50%;
+  }
+
+  .contact {
+    background-image: url(./contactDesk.png);
+    text-align: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    margin-top: 20%;
+  }
+
+  .text-field {
+    margin-bottom: 1%;
+    padding: 1%;
+    border-radius: 50px;
+  }
+
+  .contact-list {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 7%;
+    padding-top: 5%;
+  }
+
+  #contact-text {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+    line-height: 130%;
+  }
+
+  .text-field-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #contact-para {
+    font-weight: 400;
+    line-height: 140%;
+    font-size: 20px;
+    text-align: center;
+    color: #ebebff;
+    margin-bottom: 1%;
+    width: 90%;
+    margin-left: 40px;
+  }
+
+  #About {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .button-contact {
+    border-radius: 15%;
+    border-color: #5767f7;
+    color: #273bec;
+    background-color: white;
+    margin-top: 2%;
+    width: 200px;
+    padding: 15px;
+    text-align: center;
+  }
+
+  .lan-pos {
+    padding-top: 50px;
   }
 
   .section-two-one {
