@@ -443,6 +443,10 @@ image {
 }
 
 @media (max-width: 768px) {
+  #contact {
+    width: 100%;
+  }
+
   .bg {
     margin: 0;
     width: 100%;
