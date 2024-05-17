@@ -436,6 +436,10 @@ image {
     width: 100%;
     gap: 50px;
   }
+
+  .image-position img {
+    width: 90%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -449,8 +453,8 @@ image {
     background-position: center;
   }
 
-  .image-position {
-    width: 100%;
+  .image-position img {
+    width: 90%;
   }
 
   .menu-desktop {
