@@ -99,13 +99,14 @@ nav li:first-child {
 }
 
 .sidebar {
-  position: fixed;
+  position: sticky;
   top: 0%;
   right: 0%;
   height: 100vh;
   width: 250px;
   z-index: 999;
-  background-color: rgba(255, 255, 255, 0.633);
+  color: white;
+  background-color: #6070ff;
   backdrop-filter: blur(10px);
   box-shadow: -10px 0 10px rgba(239, 234, 234, 0.414);
   display: none;
@@ -444,6 +445,10 @@ image {
 
 @media (max-width: 768px) {
   #contact {
+    width: 100%;
+  }
+
+  .sidebar {
     width: 100%;
   }
 
