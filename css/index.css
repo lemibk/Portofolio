@@ -225,7 +225,6 @@ image {
 .lang-logo {
   display: flex;
   flex-direction: column;
-  visibility: hidden;
 }
 
 .frame-skill {
@@ -335,12 +334,13 @@ image {
 }
 
 .drops-1 {
+  visibility: hidden;
   margin-top: 10px;
   margin-left: 200px;
 }
 
 .drops {
-  visibility: hidden;
+  visibility: visible;
   z-index: 3;
   display: inline;
 }
