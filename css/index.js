@@ -36,3 +36,19 @@ function droplangoff() {
 function see() {
     alert("hsh")
 }
+function seeproject() {
+    const seeproject = document.querySelector('.popup')
+    seeproject.style.visibility = 'visible'
+
+    seeproject.style.width = '60%'
+
+
+
+}
+function closeproject() {
+    const seeproject = document.querySelector('.popup')
+    seeproject.style.visibility = 'hidden'
+
+    seeproject.style.width = '0%'
+
+}
