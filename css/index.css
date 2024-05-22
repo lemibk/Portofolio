@@ -431,6 +431,22 @@ image {
   font-weight: 600;
 }
 
+.button-1:hover {
+  background-color: rgb(160, 160, 254);
+}
+
+.button-2:hover {
+  background-color: #5767fb;
+}
+
+.button-contact:hover {
+  background-color: #a8b0f9;
+}
+
+.button-3:hover {
+  background-color: #acb4fb;
+}
+
 @media (min-width: 768px) {
   .menu-mobile {
     visibility: hidden;
