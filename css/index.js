@@ -40,7 +40,7 @@ function seeproject() {
     const seeproject = document.querySelector('.popup')
     seeproject.style.visibility = 'visible'
 
-    seeproject.style.width = '50%'
+    seeproject.style.width = '100%'
 
 
 }
