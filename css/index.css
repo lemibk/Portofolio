@@ -347,17 +347,18 @@ image {
 }
 
 .popup {
-  position: absolute;
+  position: fixed;
   color: black;
   background-color: white;
   font-family: 'Times New Roman', Times, serif;
   transform: translate(-50%, -50%) scale(1);
-  top: 140%;
+  top: 330px;
   left: 50%;
   width: 0;
   height: 100vh;
   z-index: 999;
   visibility: hidden;
+  overflow-y: hidden;
 }
 
 .popup-para {
@@ -422,6 +423,12 @@ image {
 
 .popbut {
   margin-left: 15px;
+}
+
+#error-m {
+  color: #f5d2d2;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 @media (min-width: 768px) {
