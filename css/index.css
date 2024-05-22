@@ -99,15 +99,15 @@ nav li:first-child {
 }
 
 .sidebar {
-  position: fixed;
+  position: sticky;
   top: 0%;
   right: 0%;
   height: 100vh;
   width: 250px;
   z-index: 999;
-  background-color: rgba(255, 255, 255, 0.633);
+  color: white;
+  background-color: #6070ffb3;
   backdrop-filter: blur(10px);
-  box-shadow: -10px 0 10px rgba(239, 234, 234, 0.414);
   display: none;
   flex-direction: column;
   align-items: flex-start;
@@ -202,12 +202,8 @@ image {
 .languages {
   display: flex;
   flex-direction: row;
-  gap: 200px;
+  gap: 20px;
   margin-top: 40px;
-}
-
-.lang-text {
-  margin-left: 3%;
 }
 
 .logo-text {
@@ -269,7 +265,7 @@ image {
   background-image: url(./contact.png);
   background-repeat: no-repeat;
   height: 100vh;
-  width: 450px;
+  width: 100%;
   margin-top: 20%;
 }
 
@@ -278,7 +274,7 @@ image {
   display: flex;
   flex-direction: column;
   margin-left: 7%;
-  padding-top: 5%;
+  padding-top: 3%;
 }
 
 #contact-text {
@@ -305,15 +301,19 @@ image {
   flex-direction: column;
 }
 
+.fix {
+  height: 10px;
+}
+
 .text-field {
-  margin-bottom: 2%;
+  margin-bottom: 1%;
   padding: 1%;
   border-radius: 50px;
 }
 
 .text-field input {
   border-radius: 10px;
-  height: 25px;
+  height: 35px;
 }
 
 .text-field-message input {
@@ -330,6 +330,18 @@ image {
   width: 40%;
   padding: 15px;
   text-align: start;
+}
+
+.drops-1 {
+  visibility: hidden;
+  margin-top: 10px;
+  margin-left: 200px;
+}
+
+.drops {
+  visibility: visible;
+  z-index: 3;
+  display: inline;
 }
 
 @media (min-width: 768px) {
@@ -390,6 +402,7 @@ image {
   }
 
   #About {
+    margin-bottom: 40px;
     display: flex;
     flex-direction: row;
   }
@@ -443,7 +456,7 @@ image {
 }
 
 @media (max-width: 768px) {
-  #contact {
+  .sidebar {
     width: 100%;
   }
 
