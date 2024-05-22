@@ -241,7 +241,6 @@ image {
 
 .section-two-one {
   margin-bottom: 15%;
-  margin-left: 2%;
 }
 
 .section-two-two {
@@ -256,21 +255,124 @@ image {
   margin-bottom: 10%;
 }
 
+.contact {
+  background-image: url(./contact.png);
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 450px;
+  margin-top: 20%;
+}
+
+.contact-list {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  margin-left: 7%;
+  padding-top: 5%;
+}
+
+#contact-text {
+  font-weight: 700;
+  font-size: 40px;
+  text-align: left;
+  color: #fff;
+  line-height: 130%;
+}
+
+#contact-para {
+  font-weight: 400;
+  line-height: 140%;
+  font-size: 20px;
+  text-align: left;
+  color: #ebebff;
+  margin-bottom: 10%;
+  width: 90%;
+}
+
+.text-field-container {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-field {
+  margin-bottom: 2%;
+  padding: 1%;
+  border-radius: 50px;
+}
+
+.text-field input {
+  border-radius: 10px;
+  height: 25px;
+}
+
+.text-field-message input {
+  border-radius: 10px;
+  height: 90px;
+}
+
+.button-contact {
+  border-radius: 15%;
+  border-color: #5767f7;
+  color: #273bec;
+  background-color: white;
+  margin-top: 2%;
+  width: 40%;
+  padding: 15px;
+  text-align: start;
+}
+
 @media (min-width: 768px) {
   .menu-mobile {
     visibility: hidden;
+  }
+
+  .others {
+    width: 50%;
+  }
+
+  .section-two-one {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 50px;
+  }
+
+  .section-two-two {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 50px;
+  }
+
+  .section-two-three {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 50px;
+  }
+
+  .section-two-four {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 50px;
   }
 }
 
 @media (max-width: 768px) {
   .bg {
     margin: 0;
-    background-size: cover;
     width: 100%;
     height: 100vh;
     background-image: url(./header-shapes\ mobile.png);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+  }
+
+  .image-position {
+    width: 100%;
   }
 
   .menu-desktop {
