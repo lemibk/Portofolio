@@ -1,4 +1,4 @@
-# The trail project
+# Portfolio
 ## About the project
 This project is the creation of responsive skeleton for mobile and desktop web development
 ## Built with 
